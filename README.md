@@ -28,7 +28,7 @@ Manual audits are slow, inconsistent, and dependent on human perception.
 ##  Features
 
  **Computer Vision Classification** – Deep learning model detects eco vs. non-eco packaging.  
- **Transfer Learning** – Uses pre-trained models (MobileNetV2 / EfficientNetB0) for high accuracy.  
+ **Transfer Learning** – Uses pre-trained models (MobileNetV2 ) for high accuracy.  
  **Explainable AI (Grad-CAM)** – Visualizes the regions influencing AI predictions.  
  **Sustainability Dashboard** – Shows metrics like Eco Compliance %, Confidence, and Trend Analysis.  
  **Streamlit App Interface** – Upload product image → get prediction → see visual explanation instantly.
@@ -43,7 +43,7 @@ Manual audits are slow, inconsistent, and dependent on human perception.
 | **Computer Vision** | OpenCV, Grad-CAM |
 | **Data Science & Visualization** | Pandas, Matplotlib, Seaborn, Plotly |
 | **Web Deployment** | Streamlit  |
-| **Dataset Source** | [Kaggle – Environmental Images for Sustainability](https://www.kaggle.com/datasets/hamzaboulahia/environmental-images-for-sustainability) |
+| **Dataset Source** | Kaggle|
 
 ---
 
@@ -56,10 +56,10 @@ Manual audits are slow, inconsistent, and dependent on human perception.
 2. **Model Development**
    - Build baseline CNN model.
    - Fine-tune Transfer Learning model (MobileNetV2).
-   - Train using binary crossentropy and Adam optimizer.
+     
 
 3. **Evaluation & Explainability**
-   - Evaluate with accuracy, F1-score, and confusion matrix.
+   - Evaluate with accuracy, F1-score .
    - Generate Grad-CAM visualizations for explainable AI.
 
 4. **Sustainability Analytics**
