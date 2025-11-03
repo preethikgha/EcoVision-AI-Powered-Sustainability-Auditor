@@ -43,7 +43,7 @@ Manual audits are slow, inconsistent, and dependent on human perception.
 | **Computer Vision** | OpenCV, Grad-CAM |
 | **Data Science & Visualization** | Pandas, Matplotlib, Seaborn, Plotly |
 | **Web Deployment** | Streamlit  |
-| **Dataset Source** | Kaggle|
+| **Dataset Source** | Kaggle - https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification?resource=download|
 
 ---
 
