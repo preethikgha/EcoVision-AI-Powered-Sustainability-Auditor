@@ -6,8 +6,8 @@
 
 ##  Overview
 
-**EcoVision** is a **Computer Vision + Data Science** project that uses **deep learning** to classify product packaging as **eco-friendly** or **non-sustainable**.  
-The system combines **image classification, explainable AI (Grad-CAM)**, and **data analytics dashboards** to promote **green retail innovation** and **sustainability awareness**.
+**EcoVision** is a **Computer Vision** project that uses **deep learning** to classify product packaging as **eco-friendly** or **non-sustainable**.  
+The system combines **image classification, explainable AI (Grad-CAM)**,  to promote **green retail innovation** and **sustainability awareness**.
 
 This project aligns with **UN Sustainable Development Goals (SDG 12 & SDG 13)** — focusing on *Responsible Consumption* and *Climate Action* — by leveraging AI to audit packaging sustainability in the retail industry.
 
@@ -18,10 +18,10 @@ This project aligns with **UN Sustainable Development Goals (SDG 12 & SDG 13)** 
 Today’s retail industry lacks scalable, objective methods to verify whether product packaging is truly eco-friendly.  
 Manual audits are slow, inconsistent, and dependent on human perception.  
 
-**EcoVision** solves this by using **computer vision and data science** to:
+**EcoVision** solves this by using **computer vision** to:
 - Visually analyze packaging images.
 - Classify them as **Eco-Friendly** or **Non-Sustainable**.
-- Provide explainable AI visualizations (Grad-CAM) and sustainability insights.
+- Provide explainable AI visualizations (Grad-CAM).
 
 ---
 
@@ -30,7 +30,6 @@ Manual audits are slow, inconsistent, and dependent on human perception.
  **Computer Vision Classification** – Deep learning model detects eco vs. non-eco packaging.  
  **Transfer Learning** – Uses pre-trained models (MobileNetV2 ) for high accuracy.  
  **Explainable AI (Grad-CAM)** – Visualizes the regions influencing AI predictions.  
- **Sustainability Dashboard** – Shows metrics like Eco Compliance %, Confidence, and Trend Analysis.  
  **Streamlit App Interface** – Upload product image → get prediction → see visual explanation instantly.
 
 ---
@@ -41,7 +40,6 @@ Manual audits are slow, inconsistent, and dependent on human perception.
 |---------|--------------------|
 | **Deep Learning** | TensorFlow, Keras |
 | **Computer Vision** | OpenCV, Grad-CAM |
-| **Data Science & Visualization** | Pandas, Matplotlib, Seaborn, Plotly |
 | **Web Deployment** | Streamlit  |
 | **Dataset Source** | Kaggle - https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification?resource=download|
 
@@ -62,10 +60,7 @@ Manual audits are slow, inconsistent, and dependent on human perception.
    - Evaluate with accuracy, F1-score .
    - Generate Grad-CAM visualizations for explainable AI.
 
-4. **Sustainability Analytics**
-   - Calculate Eco Compliance %, Average Confidence, and Material Insights.
-
-5. **Deployment**
+4. **Deployment**
    - Build interactive Streamlit web app for live demo.
 
 ---
